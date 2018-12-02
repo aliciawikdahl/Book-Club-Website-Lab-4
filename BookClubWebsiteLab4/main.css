@@ -1,0 +1,264 @@
+* {
+	font-family: Minion Pro;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+main {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+#pagecontainer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+/* MENU */
+
+
+nav ul {
+	list-style: none;
+	padding: 33px 22px 33px 0px;
+	margin: 0px;
+	text-align: right;
+
+}
+
+nav ul li {
+	display: inline;
+	margin: 11px;
+}
+
+nav ul li a {
+ 	text-decoration: none;
+ 	color: #000;
+ 	font-size: 18px;
+ }
+
+ /* MAIN FIGURE */
+
+main figure img {
+ 	width: 100%;
+ 	margin: 0px;
+ 	padding: 0px;
+
+ }
+
+main figure {
+	margin:0px;
+	padding:0px;
+	position: relative;
+}
+
+#column1 {
+	float: left;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 50%;
+}
+
+#column2 {
+	float: left;
+	padding: 0px;
+	box-sizing: border-box;
+	width: 50%;
+}
+
+ /* HEADERS */
+
+
+h1 {
+	font-family: Playfair Display;
+	font-weight: lighter;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 44px;
+	margin-top: 66px;
+}
+
+#mainpage h1 {
+	margin-bottom: 22px;
+}
+
+/* FOOTER */
+
+footer li img {
+	width: 40px;
+	padding: 0px;
+	margin: 15px;
+	box-sizing: border-box;
+}
+
+footer li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: inline;
+}
+
+footer ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #131313;
+	opacity: 0.9;
+	padding: 11px 0px 11px 0px;
+	margin: 44px 0px 0px 0px;
+
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+form {
+	margin: 0px auto 88px 75px;
+}
+
+form input {
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+
+/* ABOUT US IMAGES */
+
+h2 {
+	text-align: center;
+	font-family: Open Sans;
+	font-weight: lighter;
+	font-size: 22px;
+	margin: 44px 0px 22px 0px;
+	padding: 0px;
+}
+
+ol {
+	list-style: none;
+	padding: 0px;
+	margin: 0px 0px 88px 0px;
+	overflow: hidden;
+	text-align: center;
+}
+
+ol li {
+	padding: 0px;
+	margin-bottom: 0px;
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+}
+
+ol li img {
+	width: 200px;
+}
+
+ol li .inner {
+	padding: 11px;
+	margin-bottom: 22px;
+}
+
+ol li a {
+	text-decoration: none;
+	color: #000;
+}
+
+ol li a img {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;	
+}
+
+/* ACTIVE */
+
+.active {
+	color: #b35900;
+}
+
+/* BOOK LIST */
+
+.Library {
+	text-align: center;
+}
+
+
+.header {
+	color: #b35900;
+	font-weight: bold;
+}
+
+button {
+	background: white;
+	font-family: Lato;
+	font-weight: normal;
+	line-height: 0px;
+	font-size: 12px;
+	margin: 0px;
+	padding: 9px 6px;
+	border-radius: 6px;
+}
+
+a .button {
+	background: white;
+	font-family: Lato;
+	font-weight: normal;
+	line-height: 0px;
+	font-size: 12px;
+	margin: 0px;
+	padding: 9px 6px;
+	border-radius: 6px;
+}
+
+.mybooks h1 {
+	margin-bottom: 88px;
+}
+
+.galleryimages {
+	margin: 22px 0px 0px 0px;
+	padding: 0px;
+}
+
+.gallery img {
+	width: 33%;
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gallery img:nth-child(4n + 1) {
+	clear: left;
+	margin-top: 5px;
+}
+
+.gallery + footer {
+	margin-top: 0px;
+}
+
+.admin form {
+	margin-top: 44px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align:center;
+}
+
+.Login {
+	margin: 44px 0px 0px 0px;
+	text-align: center;
+}
+
+.Login p {
+	margin-top: 22px;
+
+}
